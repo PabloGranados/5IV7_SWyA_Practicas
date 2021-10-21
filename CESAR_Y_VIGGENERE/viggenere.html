@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Viggenere</title>
+</head>
+<body>
+    <label>Mensaje
+        <input id="mess" type="text" placeholder="Mensaje" required>
+    </label>
+    <br>
+    <label>Clave
+        <input id="llave" type="text" placeholder="Clave" required>
+    </label>
+    <br>
+    <input type="button" id="ci" value="Cifrar" onclick="ci">
+    <input type="button" id="de" value="Descifrar" onclick="de">
+    <input type="text" id="rs" class="texto" readonly>
+    <br>
+    <a href="./index.html">Regresar</a>
+
+    <script src="./JS/viggenere.js"></script>
+</body>
+</html>
